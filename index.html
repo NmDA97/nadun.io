@@ -3,9 +3,205 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Nadun Hettiarachchi - Data Analyst Portfolio</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.2.19/tailwind.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
 </head>
-<body>
-    <h1>Hi!!!</h1>
+<body class="bg-gray-100">
+    <!-- Navigation -->
+    <nav class="bg-white shadow-lg fixed w-full z-10">
+        <div class="max-w-6xl mx-auto px-4">
+            <div class="flex justify-between">
+                <div class="flex space-x-7">
+                    <div class="flex items-center py-4">
+                        <span class="font-bold text-2xl text-blue-600">NH</span>
+                    </div>
+                </div>
+                <div class="flex items-center space-x-6">
+                    <a href="#home" class="py-4 px-2 text-gray-500 hover:text-blue-600">Home</a>
+                    <a href="#about" class="py-4 px-2 text-gray-500 hover:text-blue-600">About</a>
+                    <a href="#skills" class="py-4 px-2 text-gray-500 hover:text-blue-600">Skills</a>
+                    <a href="#experience" class="py-4 px-2 text-gray-500 hover:text-blue-600">Experience</a>
+                    <a href="#projects" class="py-4 px-2 text-gray-500 hover:text-blue-600">Projects</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="pt-24 pb-12 px-4">
+        <div class="max-w-6xl mx-auto flex flex-col items-center">
+            <img src="/api/placeholder/150/150" alt="Nadun Hettiarachchi" class="rounded-full shadow-lg mb-6">
+            <h1 class="text-4xl font-bold text-gray-800 mb-4">Nadun Hettiarachchi</h1>
+            <h2 class="text-2xl text-blue-600 mb-6">Data Analyst</h2>
+            <div class="flex space-x-4">
+                <a href="mailto:nadhun97@gmail.com" class="text-gray-600 hover:text-blue-600">
+                    <i class="fas fa-envelope text-2xl"></i>
+                </a>
+                <a href="https://www.linkedin.com/in/nadun-m-hettiarachchi" target="_blank" class="text-gray-600 hover:text-blue-600">
+                    <i class="fab fa-linkedin text-2xl"></i>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="py-12 bg-white px-4">
+        <div class="max-w-6xl mx-auto">
+            <h2 class="text-3xl font-bold text-gray-800 mb-8">About Me</h2>
+            <p class="text-gray-600 leading-relaxed">
+                I am a passionate Data Analyst with a strong background in statistics, machine learning, and data analytics.
+                Proficient in Python, R, and SQL, I excel at transforming complex datasets into actionable insights. My
+                experience spans data preprocessing, model building, and deployment using tools like TensorFlow and
+                PyTorch. With a knack for communicating technical concepts to non-technical audiences, I thrive in
+                collaborative settings and am committed to driving innovation and data-driven decision-making.
+            </p>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="py-12 px-4">
+        <div class="max-w-6xl mx-auto">
+            <h2 class="text-3xl font-bold text-gray-800 mb-8">Skills</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                <div class="bg-white p-6 rounded-lg shadow-md">
+                    <h3 class="text-xl font-bold text-gray-800 mb-4">Technical Skills</h3>
+                    <ul class="space-y-2">
+                        <li class="flex items-center">
+                            <i class="fas fa-check-circle text-blue-600 mr-2"></i>
+                            Python, PHP, SQL, R, Advanced Excel, SPSS
+                        </li>
+                        <li class="flex items-center">
+                            <i class="fas fa-check-circle text-blue-600 mr-2"></i>
+                            Web Development: HTML, CSS, Laravel, Tailwind
+                        </li>
+                        <li class="flex items-center">
+                            <i class="fas fa-check-circle text-blue-600 mr-2"></i>
+                            AI and Machine Learning: Jupyter Notebook, Anaconda Navigator, Flask
+                        </li>
+                    </ul>
+                </div>
+                <div class="bg-white p-6 rounded-lg shadow-md">
+                    <h3 class="text-xl font-bold text-gray-800 mb-4">Soft Skills</h3>
+                    <ul class="space-y-2">
+                        <li class="flex items-center">
+                            <i class="fas fa-check-circle text-blue-600 mr-2"></i>
+                            Quick learner with adaptability
+                        </li>
+                        <li class="flex items-center">
+                            <i class="fas fa-check-circle text-blue-600 mr-2"></i>
+                            Clear communication and stakeholder management
+                        </li>
+                        <li class="flex items-center">
+                            <i class="fas fa-check-circle text-blue-600 mr-2"></i>
+                            Creative problem-solving
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="py-12 bg-white px-4">
+        <div class="max-w-6xl mx-auto">
+            <h2 class="text-3xl font-bold text-gray-800 mb-8">Work Experience</h2>
+            <div class="bg-gray-50 p-6 rounded-lg shadow-md">
+                <h3 class="text-xl font-bold text-gray-800">Data Analyst - Tache Lanka Pvt Ltd</h3>
+                <p class="text-gray-600 mb-4">2022-Present</p>
+                <ul class="space-y-2 text-gray-600">
+                    <li class="flex items-center">
+                        <i class="fas fa-circle text-blue-600 text-xs mr-2"></i>
+                        Analyzed large, complex datasets to uncover patterns and extract actionable insights
+                    </li>
+                    <li class="flex items-center">
+                        <i class="fas fa-circle text-blue-600 text-xs mr-2"></i>
+                        Developed advanced SQL queries and implemented data warehouses
+                    </li>
+                    <li class="flex items-center">
+                        <i class="fas fa-circle text-blue-600 text-xs mr-2"></i>
+                        Created dynamic reports and dashboards for data visualization
+                    </li>
+                    <li class="flex items-center">
+                        <i class="fas fa-circle text-blue-600 text-xs mr-2"></i>
+                        Applied machine learning techniques with Python
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="py-12 px-4">
+        <div class="max-w-6xl mx-auto">
+            <h2 class="text-3xl font-bold text-gray-800 mb-8">Projects</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                <div class="bg-white p-6 rounded-lg shadow-md">
+                    <h3 class="text-xl font-bold text-gray-800 mb-4">Advanced Weather Prediction</h3>
+                    <p class="text-gray-600">
+                        Developed weather and rainfall forecasting using ML models (Logistic Regression, Decision Trees, Neural Networks, Random Forest, XGBoost) and time series analysis (ARIMA, SARIMAX, LSTM, Prophet).
+                    </p>
+                </div>
+                <div class="bg-white p-6 rounded-lg shadow-md">
+                    <h3 class="text-xl font-bold text-gray-800 mb-4">Crop Yield Prediction</h3>
+                    <p class="text-gray-600">
+                        Built crop yield prediction models with Linear Regression, Random Forest, and XGBoost, visualized results, and deployed on Heroku.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Education Section -->
+    <section class="py-12 bg-white px-4">
+        <div class="max-w-6xl mx-auto">
+            <h2 class="text-3xl font-bold text-gray-800 mb-8">Education & Certifications</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                <div class="bg-gray-50 p-6 rounded-lg shadow-md">
+                    <h3 class="text-xl font-bold text-gray-800 mb-4">Education</h3>
+                    <div class="mb-4">
+                        <h4 class="font-bold text-gray-800">BSc In Statistics and Mathematics</h4>
+                        <p class="text-gray-600">University of Jaffna | 2019-2023</p>
+                    </div>
+                </div>
+                <div class="bg-gray-50 p-6 rounded-lg shadow-md">
+                    <h3 class="text-xl font-bold text-gray-800 mb-4">Certifications</h3>
+                    <ul class="space-y-2 text-gray-600">
+                        <li>Deeplearning.AI verified certificate for Neural Networks and Deep Learning (2024)</li>
+                        <li>Python for Beginners - University of Moratuwa (2023)</li>
+                        <li>Introduction to Data Studio - Google (2023)</li>
+                        <li>edX Verified Certificate for Python Basics for Data Science</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-800 text-white py-8 px-4">
+        <div class="max-w-6xl mx-auto text-center">
+            <p>© 2025 Nadun Hettiarachchi. All rights reserved.</p>
+            <div class="mt-4">
+                <a href="mailto:nadhun97@gmail.com" class="text-gray-300 hover:text-white mx-2">
+                    <i class="fas fa-envelope"></i>
+                </a>
+                <a href="https://www.linkedin.com/in/nadun-m-hettiarachchi" target="_blank" class="text-gray-300 hover:text-white mx-2">
+                    <i class="fab fa-linkedin"></i>
+                </a>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Smooth scrolling for navigation links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
+    </script>
 </body>
 </html>
